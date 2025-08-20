@@ -3,15 +3,13 @@ This study aims to answer the question, how do ERIC’s budget cuts and the subs
 
 ## Files Overview
 
-See `5-analysis.xlsx` under the `data` directory for complete set of research data.
+See `5-analysis.xlsx` under the `data` directory for complete set of research data. Data collected on August 1, 2025.
 
 The `journal-lists` directory contains the 2024 and 2025 ERIC Journal Lists downloaded from eric.ed.gov.
 
 The `data` directory contains the excel files used in the analysis.
 
 `Webster-journals.xlsx` is derived from [Webster, E. (2025). Journals no longer being indexed by ERIC. Accessed August 1, 2025](https://docs.google.com/document/d/1H5qSJQE2N-wh6FxnWxBHE9r5Oq9mW-kI5Q_LDf4pKs4/edit?tab=t.0#heading=h.amc5r0s78jxx.).
-
-Data collected on August 1, 2025.
 
 | Script     | Description | Input     | Output |
 | ----------- | ----------- | ----------- | ----------- |

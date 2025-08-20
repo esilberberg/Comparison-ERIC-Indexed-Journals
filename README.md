@@ -6,6 +6,10 @@ The `journal-lists` directory contains the 2024 and 2025 ERIC Journal Lists down
 
 The `data` directory contains the excel files used in the analysis.
 
+`Webster-journals.xlsx` is derived from [Webster, E. (2025). Journals no longer being indexed by ERIC. Accessed August 1, 2025](https://docs.google.com/document/d/1H5qSJQE2N-wh6FxnWxBHE9r5Oq9mW-kI5Q_LDf4pKs4/edit?tab=t.0#heading=h.amc5r0s78jxx.).
+
+Data collected on August 1, 2025.
+
 | Script     | Description | Input     | Output |
 | ----------- | ----------- | ----------- | ----------- |
 |`1_build_dataset.py` | Combines the two ERIC journal lists (2024 and 2025) and into single list of all unique journal titles. It identifies which journals appear only on the 2024 or 2025 list and and records their indexing status (active vs. inactive) via the ERIC documentation. | `1-journals-2024-2025-ERIC-indexing-policy.xlsx` | `2-master-journal-list.xlsx` |

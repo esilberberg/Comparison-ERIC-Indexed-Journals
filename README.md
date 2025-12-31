@@ -5,11 +5,13 @@ This study aims to answer the question, how do ERIC’s budget cuts and the subs
 
 See `5-analysis.xlsx` under the `data` directory for complete set of research data. Data collected on August 1, 2025.
 
-The `journal-lists` directory contains the 2024 and 2025 ERIC Journal Lists downloaded from eric.ed.gov.
+The `journal-lists` directory contains the 2024 and 2025 ERIC Journal Lists downloaded from eric.ed.gov. Additionally, the directory contains the journal lists from January and September 2023 downloaded from archival snapshots of eric.ed.gov on the Wayback Machine.
 
-The `data` directory contains the excel files used in the analysis.
+The `data` directory contains the excel files used in the analysis:
 
-`Webster-journals.xlsx` is derived from [Webster, E. (2025). Journals no longer being indexed by ERIC. Accessed August 1, 2025](https://docs.google.com/document/d/1H5qSJQE2N-wh6FxnWxBHE9r5Oq9mW-kI5Q_LDf4pKs4/edit?tab=t.0#heading=h.amc5r0s78jxx.).
+- `Webster-journals.xlsx` is derived from [Webster, E. (2025). Journals no longer being indexed by ERIC. Accessed August 1, 2025](https://docs.google.com/document/d/1H5qSJQE2N-wh6FxnWxBHE9r5Oq9mW-kI5Q_LDf4pKs4/edit?tab=t.0#heading=h.amc5r0s78jxx.).
+
+- `Journal-lists-pre-2024.xlsx` contains journal lists from 2015-2023 for historical comparison of journal additions or deselections. ERIC published these lists as PDFs (see Jan. and Sept. 2023) or HTML on the webpage `https://eric.ed.gov/?journals` (see 2015-2022).
 
 | Script     | Description | Input     | Output |
 | ----------- | ----------- | ----------- | ----------- |
@@ -20,4 +22,5 @@ The `data` directory contains the excel files used in the analysis.
 | `5_cross_check_webster_list.py` | Compares which journals from Webster's (2025) crowdsourced listed of deselected journals actually appeared on ERIC's inactive journals list. | `Webster-journals.xlsx` <br> `5-analysis.xlsx` | |
 | `6_country_comparison.py` | Calculates absolute change and percent change for the number of journals deselected by country. | `5-analysis.xlsx` | |
 | `7_inactive_journals.py` | Analyzes the inactive journals to determine the percentage that are still actively publishing, the percentage that were indexed by ERIC up to 2025, and the average length of time they were indexed by ERIC. | `5-analysis.xlsx`| |
-| `8_anomalous_journals.py` | Analyzes journals that were either unique to the 2024 or 2025 list to determine the percentage that are still actively publishing, the percentage that were indexed by ERIC up to 2025, and the year of earliest publication indexed by ERIC. | `5-analysis.xlsx`| |
+| `8_anomalous_journals.py` | Analyzes journals that were either unique to the 2024 or 2025 list to determine the percentage that are still actively publishing, the percentage that were indexed by ERIC up to 2025, and the year of earliest publication indexed by ERIC. | `5-analysis.xlsx`| | 
+| `9_graph_historical_journal_lists.py` | Graphs the number of journals indexed by ERIC from 2015-2025. |`Journal-lists-pre-2024.xlsx` | `journals_indexed_eric.png` |

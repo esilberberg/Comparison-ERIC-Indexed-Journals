@@ -23,9 +23,10 @@ df = df.sort_values("Date")
 plt.rcParams['font.family'] = 'serif'
 plt.figure(figsize=(10, 6))
 plt.plot(df['Date'], df['Number of Journals'], marker='o', linestyle='-', color='k')
-plt.ylabel('Number of Journals', labelpad=15)
+plt.xlabel('Year', labelpad=15)
+plt.ylabel('Number of Journals Indexed by ERIC', labelpad=15)
 plt.grid(False)
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-plt.savefig('journals_indexed_eric.png')
+plt.savefig('figure1.png', dpi=1200, format='png')

@@ -1,6 +1,9 @@
 # Analysis of ERIC's 2025 Revised Indexing Policy: Impact on Educators’ Access to the Scholarly Record 
 This study aims to answer the question, how do ERIC’s budget cuts and the subsequent deselection of journals affect education practitioners’ ability to access scholarly research? To address this, we systematically compared ERIC’s November 2024 and June 2025 journal lists and uncovered a significant drop in the number of indexed titles, the introduction of a new “inactive” indexing status, and unexplained missing journals. We investigated the characteristics of the deselected journals, including their scope, Open Access (OA) status, and country of origin to understand how the deselection changes the framing of the educational scholarly record. Finally, in the absence of a comprehensive official explanation from ERIC, we propose explanations for the deselection and underscore its broader impact on education practitioners’ access to the scholarly record. 
 
+## Publication
+- Silberberg, E., & Webster, E. (2026). Analysis of ERIC’s 2025 revised indexing policy: Impact on educators’ access to the scholarly record. <i>Journal of Librarianship and Scholarly Communication, 14</i>(1). https://doi.org/10.31274/jlsc.20362
+
 ## Files Overview
 
 See `5-analysis.xlsx` under the `data` directory for complete set of research data. Data collected on August 1, 2025.
